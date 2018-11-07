@@ -1,0 +1,33 @@
+{
+  "name": "proxy-52-week-high",
+  "version": "1.0.0",
+  "description": "proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Merry-Men/proxy-52-week-high.git"
+  },
+  "author": "Jon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Merry-Men/proxy-52-week-high/issues"
+  },
+  "homepage": "https://github.com/The-Merry-Men/proxy-52-week-high#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "grunt-contrib-watch": "^1.1.0",
+    "mongoose": "^5.3.9",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-aws-s3": "^2.0.0",
+    "nodemon": "^1.18.6"
+  }
+}
